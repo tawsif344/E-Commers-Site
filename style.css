@@ -1,0 +1,37 @@
+@font-face {
+    font-family: sance;
+    src: url(css/Font/OpenSans-Regular.ttf);
+}
+/*Common Css*/
+img{
+    width: 100%;
+    height: auto;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*main-css*/
+.panda_header{
+    background-color: lightgray;
+    padding: 10px ;
+}
+.panda_menu{}
+.panda_menu ul{}
+.panda_menu ul li{}
+.panda_menu ul li a{
+    color: rgb(51, 48, 48);
+    padding-right: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.panda_menu ul li a:hover{
+    color: #FF3987;
+}
